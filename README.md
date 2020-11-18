@@ -112,9 +112,6 @@ in evidenza rispetto a quelli non sponsorizzati.
 * Ajax
 
 
-* Handlebars
-
-
 * MySql
 
 

@@ -1,0 +1,541 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito'); // Variables
+@import 'variables'; // Bootstrap
+@import '~bootstrap/scss/bootstrap'; // css homepage
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+}
+
+a {
+    color: grey;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+main {
+    min-height: 100vh;
+}
+
+.sponsor {
+    background-color: lightgrey;
+}
+
+a {
+    color: grey;
+}
+
+.btn-secondary {
+    background-color: #6c5aff;
+}
+
+.sponsor {
+    background-color: lightgrey;
+}
+// jumbotron
+
+.jumbotron {
+    height: 385px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,0.6671043417366946) 0%, rgba(253,29,29,0.7287289915966386) 50%, rgba(252,176,69,0.6502976190476191) 100%);
+    margin-bottom: 0;
+    border-radius: 0;
+
+    .division {
+        margin-top: 57px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            text-align: center;
+            color: #fff;
+        }
+
+        p {
+            color: #fff;
+        }
+    }
+}
+// appartamenti
+
+.flats {
+    font-size: 10px;
+    color: black;
+    padding-top: 2%;
+    margin: 0 15px;
+
+    .dimension {
+        height: 270px;
+        position: relative;
+
+        img {
+            object-fit: cover;
+            height: 100%;
+            border-radius: 10px;
+        }
+    }
+
+    h1 {
+        padding-top: 0.5%;
+        text-align: center;
+        padding-bottom: 2%;
+        color: #ff5a5f;
+    }
+
+    .title-description {
+        padding-right: 3px;
+        text-align: left;
+
+        h2 {
+            margin-top: 5px;
+            font-size: 20px;
+
+            a {
+                text-decoration: none;
+                color: #484848;
+            }
+        }
+
+        p {
+            font-size: 18px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+    }
+}
+// Parte SEARCH
+
+.parte-up h1 {
+    margin-right: 6px;
+}
+// PARTE CHECKBOX
+.servizi-check {
+    margin-top: 10px;
+}
+
+ul.ks-cboxtags {
+    list-style: none;
+}
+
+ul.ks-cboxtags li {
+    display: inline;
+    position: relative;
+}
+
+ul.ks-cboxtags li label {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, .9);
+    border: 2px solid rgba(139, 139, 139, .3);
+    color: #adadad;
+    border-radius: 25px;
+    white-space: nowrap;
+    margin: 3px 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: all 0.2s;
+}
+
+ul.ks-cboxtags li label {
+    padding: 8px 12px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+ul.ks-cboxtags li label::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 12px;
+    padding: 2px 6px 2px 2px;
+    content: "\f067";
+    transition: transform 0.3s ease-in-out;
+}
+
+ul.ks-cboxtags li input[type="checkbox"]:checked + label::before {
+    content: "\f00c";
+    transform: rotate(-360deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+ul.ks-cboxtags li input[type="checkbox"]:checked + label {
+    border: 1px solid rgba(131,58,180, 0.6);
+    background-color: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,0.6671043417366946) 0%, rgba(253,29,29,0.7287289915966386) 50%, rgba(252,176,69,0.6502976190476191) 100%);
+    color: #fff;
+    transition: all 0.2s;
+}
+
+ul.ks-cboxtags li input[type="checkbox"] {
+    display: absolute;
+}
+
+ul.ks-cboxtags li input[type="checkbox"] {
+    position: absolute;
+    top: 1px;
+    left: 19px;
+    opacity: 0;
+}
+// ul.ks-cboxtags li input[type="checkbox"]:focus + label {
+// border: 2px solid rgba(131,58,180, 0.5);
+// }
+// FINE PARTE CHECKBOX
+.blocco-flat {
+    img {
+        object-fit: cover;
+        display: block;
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .titoloappsearch {
+        margin-top: 5px;
+    }
+
+    .carousel-item {
+        height: 250px;
+    }
+}
+
+.descrizione {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.barraRicercaInSearch {
+    margin: 20px 0;
+}
+
+#riga {
+    display: inline-block;
+    height: 2px;
+    width: 60vw;
+    background-color: lightgray;
+    margin-bottom: 10px;
+}
+
+.blocco-flat {
+    height: 300px;
+    width: 100%;
+}
+//search bar
+
+.searchbar {
+    width: 800px;
+    position: relative;
+
+    i {
+        font-size: 18px;
+        color: #3490dc;
+    }
+
+    #bottone {
+        position: absolute;
+        top: 15px;
+        right: 45px;
+    }
+}
+// PARTE SHOW
+
+#carouselExampleControls img {
+    border-radius: 10px;
+}
+
+.carousel {
+    margin-top: 45px;
+    background-color: #f2f2f2;
+}
+
+.divisore {
+    border-bottom: 1px solid grey;
+    margin: 20px 0;
+}
+
+.carousel .li {
+    list-style: none;
+    font-size: 24px;
+    color: #222222;
+}
+
+.carousel h2,
+.carousel h4 {
+    font-weight: bold;
+    display: inline-block;
+    color: #222222;
+}
+
+.carousel h5 {
+    color: rgb(113,113,113);
+}
+
+.logo {
+    font-size: 20px;
+}
+
+.pagamento {
+    margin-top: 20px;
+    height: 300px;
+    margin-bottom: 90px;
+}
+
+.pagamento button {
+    background: linear-gradient(90deg, rgba(131,58,180,0.6671043417366946) 0%, rgba(253,29,29,0.7287289915966386) 50%, rgba(252,176,69,0.6502976190476191) 100%);
+    margin-bottom: 20px;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.mappa {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#mappa {
+    width: 80%;
+    border-radius: 10px;
+}
+
+#btnScrivi {
+    background: linear-gradient(90deg, rgba(131,58,180,0.6671043417366946) 0%, rgba(253,29,29,0.7287289915966386) 50%, rgba(252,176,69,0.6502976190476191) 100%);
+    margin-bottom: 20px;
+    border: none;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 10px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 2px;
+    /* Add a top margin */
+    margin-bottom: 8px;
+    /* Allow the user to vertically resize the textarea (not horizontally) */
+    /* Bottom margin */
+    resize: vertical;
+}
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+    background: linear-gradient(90deg, rgba(131,58,180,0.6671043417366946) 0%, rgba(253,29,29,0.7287289915966386) 50%, rgba(252,176,69,0.6502976190476191) 100%);
+    margin-bottom: 20px;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* Add a background color and some padding around the form */
+
+.messaggio {
+    border-radius: 5px;
+    padding: 20px;
+}
+// PARTE FOOTER
+footer {
+    margin-top: 2%;
+    padding: 50px 0;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(131,58,180,0.6671043417366946) 0%, rgba(253,29,29,0.7287289915966386) 50%, rgba(252,176,69,0.6502976190476191) 100%);
+    margin-bottom: 20px;
+    margin-bottom: 0;
+    color: white;
+
+    li {
+        list-style: none;
+    }
+
+    ul h2 {
+        margin: 20px 0;
+        color: black;
+    }
+
+    .icons {
+        display: inline-block;
+        position: absolute;
+        right: 0;
+    }
+
+    .fab {
+        font-size: 20px;
+        margin-right: 25px;
+    }
+
+    #iconaMondo {
+        font-size: 20px;
+        margin-right: 2px;
+    }
+}
+
+.secondaRigaFooter span {
+    margin-right: 5px;
+}
+@media (max-width: 575.98px) {
+    .secondaRigaFooter {
+        margin-top: 10px;
+    }
+}
+// Profile
+
+.width {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    a {
+        color: black;
+        font-size: 17px;
+        padding: 0 12px;
+        border: 2px solid transparent;
+        border-radius: 29px;
+
+        i {
+            margin-left: 10px;
+            font-size: 20px;
+        }
+    }
+
+    a:hover {
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        background: rgb(131,58,180);
+        background: linear-gradient(90deg, rgba(131,58,180,0.6671043417366946) 0%, rgba(253,29,29,0.7287289915966386) 50%, rgba(252,176,69,0.6502976190476191) 100%);
+        color: #ffff;
+        text-decoration: none;
+    }
+}
+//sponsor
+
+.none {
+    display: none;
+}
+
+.display {
+    display: inline;
+}
+//
+
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/templates/simple-sidebar)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+
+ 
+ #wrapper {
+    overflow-x: hidden;
+ }
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -9rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  #search-button {
+    left: 7px;
+    width: 190px;
+  }
+}
+  #search-button {
+    left: 7px;
+    width: 130px;
+  }
+
+.filter-button{
+  position: absolute;
+  top: 5px;
+  width: 80px;
+  left: 114%;
+
+}

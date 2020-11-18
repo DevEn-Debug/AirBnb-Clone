@@ -42,11 +42,11 @@ in evidenza rispetto a quelli non sponsorizzati.
 
 >  Preview Desktop :desktop_computer: 
 
-
+![](public/img/desktop.gif)
 
 >  Preview Mobile :iphone: 
 
-
+![](public/img/mobile.gif)
 ---
 
 ## :key: Istruzioni:

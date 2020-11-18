@@ -6,7 +6,7 @@
 
 >
 
-> #####  - Inspired by Airbnb 
+#####  - Inspired by Airbnb 
 
 >
 

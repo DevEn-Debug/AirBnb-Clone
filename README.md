@@ -40,21 +40,21 @@ in evidenza rispetto a quelli non sponsorizzati.
 
 ### :arrow_forward: Anteprima Pagine Web:
 
->  Preview Desktop :desktop_computer: 
+##> Preview Desktop :desktop_computer: 
 
 ![](public/img/desktop.gif)
 
->  Preview Mobile :iphone: 
+##>  Preview Mobile :iphone: 
 
 ![](public/img/mobile.gif)
 ---
 
 ## :key: Istruzioni:
 
->:warning: Crere un nuovo Database con lo stesso nome inserito in DB_DATABASE
+##:warning: Crere un nuovo Database con lo stesso nome inserito in DB_DATABASE
 
 
-> :pencil: Compilare i seguenti campi ne file .env:
+##:pencil: Compilare i seguenti campi ne file .env:
 
 > Database Setup 
 ```sh
@@ -73,7 +73,7 @@ in evidenza rispetto a quelli non sponsorizzati.
 3. `BT_PRIVATE_KEY`
 ```
 
->:white_square_button: Eseguire i seguenti comandi per visionare il progetto:
+##:white_square_button: Eseguire i seguenti comandi per visionare il progetto:
 
 ```sh
 * `npm install`

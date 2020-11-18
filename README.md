@@ -16,7 +16,7 @@
 
 
 
-****Introduzione:**** 
+****:book:Introduzione::book:**** 
 
 BoolBnB è una applicazione per trovare e gestire l’affitto di appartamenti.
 Attraverso BoolBnB i proprietari di appartamenti possono inserire le informazioni degli
@@ -51,29 +51,35 @@ in evidenza rispetto a quelli non sponsorizzati.
 
 ## :key: Istruzioni:
 
-> Compilare i seguenti campi ne file .env:
+>:warning: Crere un nuovo Database con lo stesso nome inserito in DB_DATABASE
+
+
+> :pencil: Compilare i seguenti campi ne file .env:
 
 > Database Setup 
-
+```sh
 1. `DB_CONNECTION`
 2. `DB_HOST`
 3. `DB_DATABASE`
 2. `DB_USERNAME`
 3. `DB_PASSWORD`
+```
 
 > Braintree (pagamenti)
 
+```sh
 1. `BT_MERCHANT_ID`
 2. `BT_PUBLIC_KEY`
 3. `BT_PRIVATE_KEY`
+```
 
-> Crere un nuovo Database con lo stesso nome inserito in DB_DATABASE
+>:white_square_button: Eseguire i seguenti comandi per visionare il progetto:
 
-> Eseguire i seguenti comandi per visionare il progetto:
-
+```sh
 * `npm install`
 * `php artisan storage:link`
 * `npm run watch & php artisan serve`
+```
 
 
 ### :computer: Linguaggi e Tecnologie utilizzate:

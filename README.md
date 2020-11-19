@@ -26,7 +26,7 @@ Inoltre, i proprietari di un appartamento possono decidere di pagare per sponsor
 l’annuncio del proprio appartamento per fare in modo che il loro annuncio sia maggiormente
 in evidenza rispetto a quelli non sponsorizzati.
 
--
+--
 
 #  Database Structure
 

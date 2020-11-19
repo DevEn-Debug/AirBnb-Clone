@@ -26,11 +26,16 @@ Inoltre, i proprietari di un appartamento possono decidere di pagare per sponsor
 l’annuncio del proprio appartamento per fare in modo che il loro annuncio sia maggiormente
 in evidenza rispetto a quelli non sponsorizzati.
 
---
+
+
+
 
 #  Database Structure
 
 ![](public/img/DB_Structure.png)
+
+
+
 
 # :arrow_forward: Anteprima Pagine Web:
 
@@ -41,7 +46,10 @@ in evidenza rispetto a quelli non sponsorizzati.
 ###   Preview Mobile :iphone: 
 
 ![](public/img/mobile.gif)
----
+
+
+
+
 
 # :key: Istruzioni:
 
@@ -74,6 +82,9 @@ in evidenza rispetto a quelli non sponsorizzati.
 * `php artisan storage:link`
 * `npm run watch & php artisan serve`
 ```
+
+
+
 
 
 # :computer: Linguaggi e Tecnologie utilizzate:

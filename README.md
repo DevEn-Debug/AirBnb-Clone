@@ -1,7 +1,5 @@
-```diff
-  @@ AirBnb Clone@@
-@@ text in purple (and bold)@@
-```
+
+# AirBnb Clone@@
 
 
 > 

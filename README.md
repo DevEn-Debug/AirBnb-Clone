@@ -1,4 +1,4 @@
-#   AirBnb Clone
+#   @@ AirBnb Clone @@
 
 
 
@@ -9,14 +9,15 @@
 #####  - Inspired by Airbnb 
 
 >
-
+>
+>
 > 
 
 
 
 
 
-****:book:Introduzione::book:**** 
+****:book: Introduzione: :book:**** 
 
 BoolBnB è una applicazione per trovare e gestire l’affitto di appartamenti.
 Attraverso BoolBnB i proprietari di appartamenti possono inserire le informazioni degli

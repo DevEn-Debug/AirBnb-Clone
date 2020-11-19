@@ -31,11 +31,11 @@ in evidenza rispetto a quelli non sponsorizzati.
 
 ---
 
-### : Database Structure
+#  Database Structure
 
 ![](public/img/DB_Structure.png)
 
-### :arrow_forward: Anteprima Pagine Web:
+# :arrow_forward: Anteprima Pagine Web:
 
 ###  Preview Desktop :desktop_computer: 
 
@@ -46,7 +46,7 @@ in evidenza rispetto a quelli non sponsorizzati.
 ![](public/img/mobile.gif)
 ---
 
-### :key: Istruzioni:
+# :key: Istruzioni:
 
 ### :warning: Crere un nuovo Database con lo stesso nome inserito in DB_DATABASE
 
@@ -79,7 +79,7 @@ in evidenza rispetto a quelli non sponsorizzati.
 ```
 
 
-### :computer: Linguaggi e Tecnologie utilizzate:
+# :computer: Linguaggi e Tecnologie utilizzate:
 
 
 * HTML

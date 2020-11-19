@@ -2,8 +2,8 @@
     ciaoo
 </div>
 # AirBnb Clone
-
-
+<button class="btn" type="button">Button button</button>
+<a class="btn" href="#url" role="button">Link button</a>
 #####  - Inspired by Airbnb 
 
 

@@ -1,5 +1,5 @@
-<div class=".text-gray-white on dark">
-    ciaopoo
+<div class="text-white on .bg-gray-dark">
+    ciaoo
 </div>
 # AirBnb Clone
 
